@@ -1,5 +1,8 @@
-[Script]
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/YouTube.js
+[URL Rewrite]
+# >> Youtube
+^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) - reject-200
+#[Script]
+#http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/YouTube.js
 
 [MITM]
 hostname = *.googlevideo.com
