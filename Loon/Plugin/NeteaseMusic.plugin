@@ -4,7 +4,6 @@ DOMAIN,apm.music.163.com
 DOMAIN,apm3.music.163.com
 DOMAIN,interface.music.163.com
 DOMAIN,interface3.music.163.com
-DOMAIN,music.126.net
 DOMAIN,music.163.com
 DOMAIN-SUFFIX,music.126.net,DIRECT
 DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
