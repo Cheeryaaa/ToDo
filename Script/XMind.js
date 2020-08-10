@@ -26,6 +26,3 @@ obj = {
 }
   
 $done({body: JSON.stringify(obj)});
-
-// Updated 20200715
-// 仅供个人参考学习交流，勿用于其它...
