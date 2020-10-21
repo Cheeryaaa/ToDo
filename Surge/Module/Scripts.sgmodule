@@ -53,9 +53,6 @@ http-response ^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|get
 # > 用药助手解锁专业版 (By Primovist)
 http-response ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js,tag=用药助手
 
-# > 优乐美, 小米粒, 彩色直播三合一 解锁收费房
-#http-response ^https?:\/\/(.+)\.(\w{2,3})(:?\d*)\/(api\/public\/\?service=Live\.checkLive$|public\/\/\?service=Live\.roomCharge$|lg\/video\/loadVideoFees\.do$) requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/zhibo.js,tag=直播三合一
-
 # > 陆琪讲故事
 http-response ^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js,tag=陆琪讲故事
 
